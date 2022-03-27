@@ -1,16 +1,18 @@
 % PARAMETRI GLOBALI
 #(set-default-paper-size "a3" 'landscape)
+date = #(strftime "%d-%m-%Y" (localtime (current-time))) 
 % #(set-global-staff-size 20)
 
 
 % TITOLO
-\markup {
+\markup 
+{
   \column {
 \fontsize #12 \line {Eterno Presente}
 \fontsize #4 \line {for Chamber Orchestra}
 \vspace #1
 \fontsize #4 \line {Luca Spanedda}
-\fontsize #2 \line {2022}
+\fontsize #2 \line {\date}
 \vspace #2
   }
 }
@@ -18,8 +20,29 @@
 
 % PAGINA A CAPO
 \pageBreak
+
+
+
+
+% PARAMETRI
+glissandoSkipOn = 
+{
+  \override NoteColumn.glissando-skip = ##t
+  \hide NoteHead
+  \override NoteHead.no-ledgers = ##t
+}
 iniziocorona = \set Score.repeatCommands = #'((volta #f) (volta "") end-repeat)
 finecorona = \set Score.repeatCommands = #'((volta #f))
+stemOff = \hide Staff.Stem 
+stemOn  = \undo \stemOff
+rigo = \override Staff.StaffSymbol.line-count = #1
+pentagramma = \revert Staff.StaffSymbol.line-count
+iniziocorona = \set Score.repeatCommands = #'((volta #f) (volta "") end-repeat)
+finecorona = \set Score.repeatCommands = #'((volta #f))
+notainvisibile = \override Voice.NoteHead.color = #white
+notavisibile = \override Voice.NoteHead.color = #black
+gamboinvisibile = \stemOff 
+gambovisibile = \stemOn
 
 
 \new Staff\with{ instrumentName = "Instrument"\remove "Time_signature_engraver"}
@@ -42,24 +65,6 @@ finecorona = \set Score.repeatCommands = #'((volta #f))
 
 % PAGINA A CAPO
 \pageBreak
-
-
-glissandoSkipOn = 
-{
-  \override NoteColumn.glissando-skip = ##t
-  \hide NoteHead
-  \override NoteHead.no-ledgers = ##t
-}
-stemOff = \hide Staff.Stem 
-stemOn  = \undo \stemOff
-rigo = \override Staff.StaffSymbol.line-count = #1
-pentagramma = \revert Staff.StaffSymbol.line-count
-iniziocorona = \set Score.repeatCommands = #'((volta #f) (volta "") end-repeat)
-finecorona = \set Score.repeatCommands = #'((volta #f))
-notainvisibile = \override Voice.NoteHead.color = #white
-notavisibile = \override Voice.NoteHead.color = #black
-gamboinvisibile = \stemOff 
-gambovisibile = \stemOn
 
 
 
@@ -157,6 +162,9 @@ gambovisibile = \stemOn
 >> \layout { } \midi { } }
 
 
-\header {
-  tagline = ""
+\header 
+{
+tagline = 
+"| website: https://lucaspanedda.github.io/ | 
+ | e-mail: lucaspanedda1995@gmail.com |" 
 }

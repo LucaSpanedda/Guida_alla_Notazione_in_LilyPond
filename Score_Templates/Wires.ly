@@ -1,6 +1,8 @@
 % PARAMETRI GLOBALI
 #(set-default-paper-size "a3" 'landscape)
+date = #(strftime "%d-%m-%Y" (localtime (current-time))) 
 % #(set-global-staff-size 20)
+
 
 
 % TITOLO
@@ -10,7 +12,7 @@
 \fontsize #4 \line {for strings}
 \vspace #1
 \fontsize #4 \line {Luca Spanedda}
-\fontsize #2 \line {2022}
+\fontsize #2 \line {\date}
 \vspace #2
 
 \line\italic { inspired by: James Tenney - Cellogram (1971) }
@@ -28,19 +30,19 @@
   \column {
 \fontsize #8 \line {Notes}
 \vspace #2
-\fontsize #2 \line {Wires is a composition for strings born from the desire to explore the dimension of the sound continuum.}
-\fontsize #2 \line {Thanks to chance is renewed in each performance, remaining coherent formally although always different internally.}
-\fontsize #2 \line {The continuum lowers the perception of the psychological time:}
-\fontsize #2 \line {things stop living in a temporality marked by past, present and future, by sound events defined in the order of microseconds, }
-\fontsize #2 \line {and instead became projected towards the dimension of the macro.}
-\fontsize #2 \line {In this condition, the perception of the past, present and future begins to merge,}
+\fontsize #2 \line {Wires is a composition for strings, comes from desire to explore the dimension of the sound continuum.}
+\fontsize #2 \line {Thanks to the use of random elements, the piece is renewed in each performance, remaining coherent formally although always different internally.}
+\fontsize #2 \line {The musical form of the sound continuum lower the perception of the psychological time:}
+\fontsize #2 \line {things stop living in the temporality of the Micro, marked by past present and future; by sound events defined in the order of milliseconds,}
+\fontsize #2 \line {and instead became projected towards the dimension of the Macro.}
+\fontsize #2 \line {In this condition, our perception of the past, present and future begins to merge,}
 \fontsize #2 \line {creating new listening situations.}
+\vspace #12
   }
 }
 
 
-% PAGINA A CAPO
-\pageBreak
+
 
 
 glissandoSkipOn = {
@@ -66,7 +68,6 @@ stangheon = \stemOn
 \markup {
   \column {
 \fontsize #8 \line {Instructions}
-\vspace #2
   }
 }
 
@@ -99,8 +100,8 @@ stangheon = \stemOn
    \column 
    {
   \fontsize #4 \line \italic { At the beginning of the piece any performer can choose to play }
-  \fontsize #4 \line \italic { and follow one (or more when it's possible) of the several melodic lines proposed, }
-  \fontsize #4 \line \italic { choosing bethween one of the two different extensions: Stings A, Strings B }
+  \fontsize #4 \line \italic { and follow one (or more than one when it's possible) of the several melodic lines proposed, }
+  \fontsize #4 \line \italic { choosing between one of the two different extensions: Stings A or Strings B.}
    }
 }
 <dis'' gis' dis'>4
@@ -129,8 +130,8 @@ stangheon = \stemOn
   <c g c'>4\glissando
 _\markup {
   \column {
-\fontsize #4 \line \italic {Organics with different numbers of instruments are encorauged.}
-\fontsize #4 \line \italic {Polyphony when it's possible are encorauged.}
+\fontsize #4 \line \italic {Ensemble with different numbers of instruments are encouraged.}
+\fontsize #4 \line \italic {Whenever is possible, polyphonies produced by a single instrument are encouraged.}
   }
 }
 <dis' gis dis>4 
@@ -291,6 +292,9 @@ _\markup {
 }
 
 
-\header {
-  tagline = ""
+\header 
+{
+tagline = 
+"| website: https://lucaspanedda.github.io/ | 
+ | e-mail: lucaspanedda1995@gmail.com |" 
 }

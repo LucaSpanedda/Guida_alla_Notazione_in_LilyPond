@@ -31,13 +31,13 @@ date = #(strftime "%d-%m-%Y" (localtime (current-time)))
 \fontsize #8 \line {Notes}
 \vspace #2
 \fontsize #2 \line {Wires is a composition for strings, comes from desire to explore the dimension of the sound continuum.}
-\fontsize #2 \line {Thanks to the use of random elements, the piece is renewed in each performance, remaining coherent formally although always different internally.}
+\fontsize #2 \line {Thanks to the use of chance, the piece is renewed in each performance, remaining coherent formally although always different internally.}
 \fontsize #2 \line {The musical form of the sound continuum lower the perception of the psychological time:}
 \fontsize #2 \line {things stop living in the temporality of the Micro, marked by past present and future; by sound events defined in the order of milliseconds,}
 \fontsize #2 \line {and instead became projected towards the dimension of the Macro.}
 \fontsize #2 \line {In this condition, our perception of the past, present and future begins to merge,}
 \fontsize #2 \line {creating new listening situations.}
-\vspace #12
+\vspace #8
   }
 }
 
@@ -253,7 +253,7 @@ _\markup {
   \override Glissando.after-line-breaking = ##t
   
   <c g c'>4\glissando \shortfermata
-  _\markup{\italic \fontsize #0.4 {Play all with the same dynamic} }
+  _\markup{\italic \fontsize #0.4 {Play all with the same dynamic and free bowing} }
   <dis' gis dis>4\glissando \shortfermata
   <e' e g>4\glissando \shortfermata
   <gis dis dis'>4\glissando \shortfermata

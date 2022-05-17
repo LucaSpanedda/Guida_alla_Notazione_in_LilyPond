@@ -40,14 +40,37 @@ date = #(strftime "%d-%m-%Y" (localtime (current-time)))
   \column {
 \fontsize #8 \line {Notes}
 \vspace #2
-\fontsize #2 \line {Wires is a composition for strings, comes from desire to explore the dimension of the sound continuum.}
-\fontsize #2 \line {Thanks to the use of chance, the piece is renewed in each performance, remaining coherent formally although always different internally.}
-\fontsize #2 \line {The musical form of the sound continuum lower the perception of the psychological time:}
-\fontsize #2 \line {things stop living in the temporality of the Micro, marked by past present and future; by sound events defined in the order of milliseconds,}
-\fontsize #2 \line {and instead became projected towards the dimension of the Macro.}
-\fontsize #2 \line {In this condition, our perception of the past, present and future begins to merge,}
-\fontsize #2 \line {creating new listening situations.}
-\vspace #8
+\line\italic { Ogni anima è immortale. }
+\line\italic { Infatti è immortale ciò che è in continuo movimento, mentre ciò che muove altro o è mosso da altro, }
+\line\italic { quando cessa di muoversi, cessa anche di vivere. }
+\line\italic { Evidentemente solo ciò che si muove da sé, dato che non viene meno a se stesso, non cessa mai di muoversi, }
+\line\italic { ma anzi è fonte e principio di movimento per tutte le altre cose che si muovono. }
+\line\italic { Un principio poi è ingenerato; infatti è necessario che tutto ciò che nasce nasca da un principio, }
+\line\italic { ma che questo principio non nasca dal nulla. }
+\line\italic { (Plato, Phaedrus) }
+\vspace #2
+
+\line {Un principio fisico universale vuole che in tutte le strutture organizzate sia misurabile }
+\line {il grado di ordine e disordine, la grandezza fisica che misura questo grado di disordine }
+\line {progressivo è l'entropia. }
+\line {Gli esseri viventi sono in grado di muoversi in direzione opposta}
+\line {a quella del processo entropico, assorbendo energia libera dall'ambiente:}
+\line {Essi, come tutte le cose di questo mondo, tendono verso lo }
+\line {stato di equilibrio (la morte), assorbendo energia libera }
+\line {si mantengono invece in uno stato stazionario a spese dell'ambiente circostante, }
+\line {ed al costo di un'enorme spreco di energia, }
+\line {in tutti gli organismi questo avviene tramite la respirazione cellulare. }
+\line {Per compiere la respirazione cellulare , gli organismi necessitano di un continuo }
+\line {rifornimento di ossigeno, che prelevano dall'ambiente circostante (aria o acqua). }
+\line {Noi respirando, non facciamo altro che ripercorrere il processo creativo,  }
+\line {la vibrazione primordiale che ha dato vita all’Universo e costituito il cuore pulsante e }
+\line {vitale di ogni cosa. Psiche Dal gr. ψυχή, connesso con ψύχω «respirare, soffiare» è }
+\line {un termine la cui etimologia si riconduce all’idea del «soffio», cioè del respiro }
+\line {vitale; presso i Greci designava l’anima in quanto originariamente identificata con }
+\line {quel respiro. }
+\line {Il respiro ed il suo parallelismo con la creazione è l'ogetto al centro di questa }
+\line {composizione, in forma di processo per descrivere il processo stesso }
+\line {del rivestimento musicale generato dai gesti primordiali dell’essere umano }
   }
 }
 

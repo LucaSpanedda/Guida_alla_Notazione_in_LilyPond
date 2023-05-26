@@ -1,8 +1,8 @@
 \version "2.22.2"
 
 sym = {
- \once \override NoteHead  #'stencil = #ly:text-interface::print
- \once \override NoteHead #'text =
+ \override NoteHead  #'stencil = #ly:text-interface::print
+ \override NoteHead #'text =
    \markup {
      \general-align #Y #CENTER {
        \epsfile #X #4 #"sym.eps"
